@@ -74,7 +74,7 @@ public class MergeX {
 
     //is the array[lo..hi] sorted ?
     public static boolean isSorted(Comparable[] a,int lo,int hi) {
-    	for(int i = lo; i < hi+1;i++)
+    	for(int i = lo+1; i < hi+1;i++)//i = lo + 1
     	    if(less(a[i], a[i-1])) return false;
     	return true;
     }

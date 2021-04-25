@@ -2,9 +2,9 @@ package elementarySort;
 
 import java.util.Random;
 
-public class knuthShuffle {
+public class Shuffle {
 	// This class should not be instantiated.
-	private knuthShuffle() { } 
+	private Shuffle() { } 
 
 	//Rearranges the array in ascending order,using the natural order
 	public static void shuffle(Comparable[] a) {
